@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "804421615362",
+    "project_id": "pretty-notes-01",
+    "storage_bucket": "pretty-notes-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804421615362:android:639cbc201344c9391acc1b",
+        "android_client_info": {
+          "package_name": "com.example.prettynotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWjNBz1Ma5PoJnWQiCBLxVpmPSCdzhue8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
