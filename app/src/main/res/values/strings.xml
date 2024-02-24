@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Pretty Notes</string>
     <string name="pretty_notes">Pretty Notes</string>
+    <string name="forgot_your_login_details_get_help_logging_in">Forgot your login details? Get help logging in.</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign up.</string>
+    <string name="already_have_an_account_log_in">Already have an account? Log in.</string>
 </resources>
