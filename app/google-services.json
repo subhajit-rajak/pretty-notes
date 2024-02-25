@@ -12,7 +12,20 @@
           "package_name": "com.example.prettynotes"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "804421615362-21frmv1ui47n3lb25pk6omks1j2tqsm8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prettynotes",
+            "certificate_hash": "558d4cc60350bda0d3afab1570f15c466f58e270"
+          }
+        },
+        {
+          "client_id": "804421615362-i4niq6m77t10red3c9ca0ti57blhho80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDWjNBz1Ma5PoJnWQiCBLxVpmPSCdzhue8"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804421615362-i4niq6m77t10red3c9ca0ti57blhho80.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
