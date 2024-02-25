@@ -144,10 +144,15 @@
         android:backgroundTint="#262626"
         android:drawableLeft="@drawable/google"
         android:text="@string/continue_with_google"
+        android:textColor="@color/bg_light"
+        android:textColorHighlight="#5E5E5E"
+        android:textColorHint="@color/text_box_shape"
+        android:textColorLink="@color/bg_light"
         app:cornerRadius="8dp"
         app:iconPadding="-15dp"
         app:layout_constraintEnd_toEndOf="@+id/login"
         app:layout_constraintStart_toStartOf="@+id/login"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:rippleColor="#575757" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

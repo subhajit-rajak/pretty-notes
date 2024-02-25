@@ -7,4 +7,5 @@
     <color name="text_box_shape">#262626</color>
     <color name="text_box_text">#AAAAAA</color>
     <color name="button">#00A3FF</color>
+    <color name="hintColorNote">#4C4C4C</color>
 </resources>

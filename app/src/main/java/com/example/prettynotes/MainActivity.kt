@@ -18,22 +18,19 @@ class MainActivity : AppCompatActivity() {
 
         binding.logout.setOnClickListener {
             // for sign-out
-
             // option 1
             FirebaseAuth.getInstance().signOut()
-
             // option 2
-            val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken(getString(R.string.default_web_client_id))
-                .requestEmail()
-                .build()
+            val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(getString(R.string.default_web_client_id)).requestEmail().build()
             val go= GoogleSignIn.getClient(this, gso)
             go.signOut()
-
             // both options were needed to sign-out properly
-
             startActivity(Intent(this, Login::class.java))
             finish()
+        }
+
+        binding.addbtn.setOnClickListener {
+            startActivity(Intent(this, AddNote::class.java))
         }
     }
 }
