@@ -16,4 +16,8 @@
     <string name="save">Save</string>
     <string name="back_to_home">Back to Home</string>
     <string name="textview">TextView</string>
+    <string name="all_notes">All notes</string>
+    <string name="create_new_note">Create new note</string>
+    <string name="line">Line</string>
+    <string name="signout_button">Signout button</string>
 </resources>
