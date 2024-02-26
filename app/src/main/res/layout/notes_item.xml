@@ -30,12 +30,13 @@
                 android:fontFamily="@font/inter_semibold"
                 android:paddingStart="20dp"
                 android:paddingTop="10dp"
-                android:text="TextView"
+                android:text="@string/textview"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="RtlSymmetry" />
 
             <TextView
                 android:id="@+id/descriptionCard"
@@ -43,13 +44,14 @@
                 android:layout_height="wrap_content"
                 android:paddingStart="22dp"
                 android:paddingBottom="10dp"
-                android:text="TextView"
+                android:text="@string/textview"
                 android:textColor="#8C8C8C"
                 android:textSize="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/titleCard" />
+                app:layout_constraintTop_toBottomOf="@+id/titleCard"
+                tools:ignore="RtlSymmetry" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
