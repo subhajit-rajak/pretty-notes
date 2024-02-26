@@ -3,7 +3,6 @@ package com.example.prettynotes
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.ContactsContract.CommonDataKinds.Note
 import android.widget.Toast
 import com.example.prettynotes.databinding.ActivityAddNoteBinding
 import com.google.firebase.auth.FirebaseAuth

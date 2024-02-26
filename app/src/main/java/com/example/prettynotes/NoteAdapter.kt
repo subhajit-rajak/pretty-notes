@@ -1,9 +1,7 @@
 package com.example.prettynotes
 
-import android.accounts.AuthenticatorDescription
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.AdapterView.OnItemClickListener
 import androidx.recyclerview.widget.RecyclerView
 import com.example.prettynotes.databinding.NotesItemBinding
 
